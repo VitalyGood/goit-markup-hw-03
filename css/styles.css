@@ -1,13 +1,33 @@
+
 body{
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: white;
 }
 
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+p {
+margin: 0;
+}
+
 ul {
     list-style-type: none;
+    margin: 0;
+    padding-left: 0;
 }
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
 /*header*/
+
 
 .logo {
     color: #2E2F42;
