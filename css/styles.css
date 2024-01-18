@@ -26,7 +26,50 @@ img {
     max-width: 100%;
 }
 
+.conteiner{
+    max-width: 1158px;
+    padding-left: 15px;  
+    padding-right: 15px; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
 /*header*/
+
+header{
+padding-top: 24px;
+padding-bottom: 24px;
+}
+
+.header-row{
+    display: flex;
+    align-items: center;
+    margin-left: 156px;
+    
+}
+
+.header-navigations{
+    display: flex;
+    align-items: center; 
+}
+
+
+.header-marked-list{
+    display: flex;
+    align-items: center;
+    margin-left: 76px;
+}
+
+.header-marked-list li:not(:last-child){
+    margin-right: 40px;
+}
+
+.contacts-marked-list{
+    display: flex;
+    align-items: center;
+    margin-right: 156px;
+    
+}
 
 
 .logo {
@@ -148,6 +191,20 @@ img {
 }
 
 /*section-2*/
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .content-paragraf{
     font-size: 16px;
     line-height: 1.5;
