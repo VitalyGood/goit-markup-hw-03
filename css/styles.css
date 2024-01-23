@@ -27,61 +27,49 @@ img {
 }
 
 .container{
-    max-width: 1440px;
-    padding-left: 0px;  
-    padding-right: 0px; 
+    max-width: 1158px;
+    width: 100%;
+    padding-left: 15px;  
+    padding-right: 15px; 
     margin-left: auto; 
-    margin-right: auto;
+    margin-right: auto;  
+    outline: 2px solid red;
 }
 
 /*=========Header=========*/
 
 header{
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
 }
 
-.header-row{
+.header-cont{
     display: flex;
     align-items: center;
-    margin-left: 156px;
-    width: 1158px;
-    
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .header-navigations{
     display: flex;
     align-items: center; 
-    width: 1158px;
-    padding: 0 15px 0 15px,
-}
-
-.header-contacts{
-    display: flex;
-    align-items: center;
-    margin-left: 332px;
+    padding: 0 15px 0 15px;
 }
 
 .header-marked-list{
     display: flex;
     align-items: center;
-    margin-left: 76px;
+    gap: 40px;
 }
 
-.header-marked-list li:not(:last-child){
-    margin-right: 40px;
-}
 
 .contacts-marked-list{
     display: flex;
     align-items: center; 
     flex-wrap: wrap;
+    gap: 40px;
+    padding: 24px 0 24px;
 }
 
-li#mail-id{
-    margin-right: 40px;
-}
 /*=========================*/
 
 .logo {
@@ -104,10 +92,13 @@ li#mail-id{
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    margin-right: 76px;
 }
 
 .adress {
+    display: flex;
     font-style: normal;
+    
 }
 
 .contacts-link {
@@ -126,6 +117,9 @@ li#mail-id{
     color: #404bbf;
 } 
 
+.active-contacts{
+    margin-right: 0px;
+}
 .active-contacts, .nav-list {
     color: #2E2F42;
     font-family: "Roboto",sans-serif;
@@ -174,9 +168,15 @@ li#mail-id{
 
 /*section-one*/
 .section-one{
-    background-color: #2E2F42;  
+    background-color: #2E2F42;
     
 }
+
+.section-one-cont{
+    
+    padding-bottom: 188px;
+}
+
 .one-title {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -188,12 +188,8 @@ li#mail-id{
     max-width:496px;
     padding-top: 188px;
     padding-bottom: 48px;
-    margin-left: 472px;
 }
 
-.btn-section-one{
-margin-left: 636px;
-}
 
 .batton-service{
     font-family: 'Roboto', sans-serif;
@@ -204,14 +200,18 @@ margin-left: 636px;
     cursor: pointer;
     background-color: #4D5AE5;
     color: white;
+    display: block;
     border-radius: 4px;
-    align-items: flex-start;
+    min-width: 169px;
+    height: 56px;
+    border:none;
     padding: 16px 32px;
-    gap: 10px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    margin-bottom: 188px;
 }
 
+.btn{
+    padding-bottom: 188px;
+}
 .batton-service:hover,
 .batton-service:focus{
     background-color: #404BBF;   
@@ -220,16 +220,17 @@ margin-left: 636px;
 /*section-2*/
 
 .section-two{
-    
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .section-two-content-list{
 display: flex;
 flex-wrap: wrap;
-gap: 8px;
+gap: 24px;
 padding: 0;
 list-style: none;
-margin: 120px 156px 120px 156px;
+
 }
 
 .visually-hidden {
@@ -255,11 +256,10 @@ margin: 120px 156px 120px 156px;
 .sec-two-list{
     list-style-type: none;
     flex-basis: calc((100% - 72px) / 4);
-    padding: 0px;
-    
-
 }
-
+.tree-title{
+    margin-bottom: 8px;
+}
 
 /*section-3*/
 
@@ -275,9 +275,9 @@ margin: 120px 156px 120px 156px;
     }
     
 
-#title-sec-three{
+.title-sec-three{
     margin-bottom: 72px;
-   
+    padding-top: 120px;
 }
 
 .list-our-team img{
@@ -291,7 +291,6 @@ margin: 120px 156px 120px 156px;
 
 .section-three{
     background-color: #F4F4FD;
-    padding: 120px 0 120px;
 }   
 
 .section-three> .two-title{
