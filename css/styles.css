@@ -47,6 +47,7 @@ header{
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
+    padding: 24px 0 24px;
 }
 
 .header-navigations{
@@ -67,7 +68,7 @@ header{
     align-items: center; 
     flex-wrap: wrap;
     gap: 40px;
-    padding: 24px 0 24px;
+    
 }
 
 /*=========================*/
@@ -110,6 +111,7 @@ header{
     letter-spacing: 0.02em;
     text-decoration: none;
     font-style: normal;
+    padding: 24px 0;
 }
 
 .contacts-link:hover,
@@ -168,9 +170,11 @@ header{
 
 /*section-one*/
 .section-one{
-    background-color: #2E2F42;
-    align-items: center;
-    
+background-color: #2E2F42;
+}
+.section-one-cont{
+padding-bottom: 188px;
+padding-top: 188px;
 }
 
 .one-title {
@@ -182,10 +186,12 @@ header{
     color: white;
     text-align: center;
     max-width:496px;
-    padding-top: 188px;
     padding-bottom: 48px;
+    margin-left: 320px;
+}   
+.btn_sec{
+    padding-bottom: 188px;
 }
-
 
 .batton-service{
     font-family: 'Roboto', sans-serif;
@@ -201,13 +207,11 @@ header{
     min-width: 169px;
     height: 56px;
     border:none;
-    padding: 16px 32px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    margin-left: 480px;
 }
 
-.btn{
-    padding-bottom: 188px;
-}
+
 .batton-service:hover,
 .batton-service:focus{
     background-color: #404BBF;   
@@ -215,9 +219,7 @@ header{
 
 /*section-2*/
 
-.section-two{
 
-}
 
 .section-two-content-list{
 display: flex;
@@ -258,6 +260,11 @@ list-style: none;
 }
 
 /*section-3*/
+
+.sec-cont-three{
+    padding: 120px 0 120px;
+}
+
 .block-list-team{
     text-align: center;
     margin-bottom: 8px;;
@@ -268,14 +275,12 @@ list-style: none;
     justify-content: space-between;
     gap: 24px;
     text-align: center;
-    padding-bottom: 120px;
-    }
+}
     
 
 
 .title-sec-three{
     padding-bottom: 72px;
-    padding-top: 120px;
 }
 
 .list-our-team img{
@@ -319,8 +324,11 @@ list-style: none;
 }
 /*section-4*/
 
+.section-four-cont{
+padding: 120px 0 120px 0;
+}  
+
 .title-sec-four{
-    padding-top: 120px;
     margin-bottom: 72px;
 }
 
@@ -330,7 +338,6 @@ flex-wrap: wrap;
 row-gap: 48px;
 column-gap: 24px;
 justify-content: center;
-margin-bottom: 120px;
 }
 
 .img-list-portfolio img{
@@ -359,7 +366,6 @@ margin-bottom: 120px;
     text-transform: capitalize;
     line-height: 1.11;
     text-align: center;
-    padding: 120px 0 120px 0;
 }
 
 .img-list-portfolio> .tree-title {
@@ -396,10 +402,10 @@ margin-bottom: 120px;
 
 /* footer */
 .footer {
-    background-color: #2E2F42;
+    background-color: #2E2F42;  
+}
+.cont-footer{
     padding: 100px 0;
-    
-    
 }
 
 .logo-link-footer{
