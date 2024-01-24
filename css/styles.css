@@ -169,12 +169,8 @@ header{
 /*section-one*/
 .section-one{
     background-color: #2E2F42;
+    align-items: center;
     
-}
-
-.section-one-cont{
-    
-    padding-bottom: 188px;
 }
 
 .one-title {
@@ -220,15 +216,15 @@ header{
 /*section-2*/
 
 .section-two{
-    padding-top: 120px;
-    padding-bottom: 120px;
+
 }
 
 .section-two-content-list{
 display: flex;
 flex-wrap: wrap;
 gap: 24px;
-padding: 0;
+padding-top:120px;
+padding-bottom: 120px;
 list-style: none;
 
 }
@@ -262,21 +258,23 @@ list-style: none;
 }
 
 /*section-3*/
-
+.block-list-team{
+    text-align: center;
+    margin-bottom: 8px;;
+}
 
 .section-three-team-list{
     display: flex;
     justify-content: space-between;
     gap: 24px;
-    margin-left: 156px;
-    margin-right: 156px;
     text-align: center;
-    
+    padding-bottom: 120px;
     }
     
 
+
 .title-sec-three{
-    margin-bottom: 72px;
+    padding-bottom: 72px;
     padding-top: 120px;
 }
 
@@ -287,6 +285,7 @@ list-style: none;
 
 .list-our-team p{
     margin-bottom: 32px;
+    
 }
 
 .section-three{
@@ -308,6 +307,7 @@ list-style: none;
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    width: calc((100% - 72px) / 4);
 }
 .paragraf-team{
     font-family: 'Roboto', sans-serif;
@@ -319,8 +319,8 @@ list-style: none;
 }
 /*section-4*/
 
-#title-sec-four{
-    margin-top: 120px;
+.title-sec-four{
+    padding-top: 120px;
     margin-bottom: 72px;
 }
 
@@ -397,7 +397,7 @@ margin-bottom: 120px;
 /* footer */
 .footer {
     background-color: #2E2F42;
-    padding: 100px 0 100px 156px;
+    padding: 100px 0;
     
     
 }
