@@ -175,14 +175,13 @@ display: block;
 
 /*section-one*/
 .section-one{
-background-color: #2E2F42;
-align-items: center
+    background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+
 ;
 }
-.section-one-cont{
-padding-top: 188px; 
-padding-bottom: 188px;
-}
+
 
 .one-title {
     font-family: 'Roboto', sans-serif;
@@ -224,13 +223,16 @@ padding-bottom: 188px;
 
 /*section-2*/
 
+.section-two{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .section-two-content-list{
 display: flex;
 flex-wrap: wrap;
 gap: 24px;
 list-style: none;
-padding: 120px 0 120px;
-
 }
 
 .visually-hidden {
@@ -272,7 +274,7 @@ padding: 120px 0 120px;
     justify-content: space-between;
     gap: 24px;
     text-align: center;
-    padding-bottom: 120px;
+    
 }
     
 .name-team-position{
@@ -280,12 +282,14 @@ padding: 120px 0 120px;
 }
 
 .title-sec-three{
-    padding-top: 120px;
+    
     margin-bottom: 72px;
 }
 
 .section-three{
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }   
 
 .section-three> .two-title{
@@ -314,13 +318,13 @@ padding: 120px 0 120px;
     color: #434455;
 }
 /*section-4*/
-
-.section-four-cont{
+.section-four{
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 
 .title-sec-four{
-    padding-top: 120px;
+    
     margin-bottom: 72px;
 }
 
@@ -382,11 +386,10 @@ justify-content: center;
 /* footer */
 .footer {
     background-color: #2E2F42;
-}
-.cont-footer{
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
 
 .logo-link-footer{
     text-decoration: none;
