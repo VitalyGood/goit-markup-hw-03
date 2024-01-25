@@ -180,7 +180,8 @@ align-items: center
 ;
 }
 .section-one-cont{
-padding: 188px 0 188px 0;;
+padding-top: 188px; 
+padding-bottom: 188px;
 }
 
 .one-title {
@@ -195,9 +196,7 @@ padding: 188px 0 188px 0;;
     padding-bottom: 48px;
     margin-left: 320px;
 }   
-.btn_sec{
-    padding-bottom: 188px;
-}
+
 
 .batton-service{
     font-family: 'Roboto', sans-serif;
@@ -224,8 +223,6 @@ padding: 188px 0 188px 0;;
 }
 
 /*section-2*/
-
-
 
 .section-two-content-list{
 display: flex;
