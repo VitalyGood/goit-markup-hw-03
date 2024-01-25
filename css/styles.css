@@ -40,7 +40,6 @@ img {
 
 header{
     border-bottom: 1px solid #e7e9fc;
-    padding: 24px 0 24px;
 }
 
 .header-cont{
@@ -48,13 +47,12 @@ header{
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-
 }
 
 .header-navigations{
     display: flex;
     align-items: center; 
-    padding: 0 15px 0 15px;
+    
 }
 
 .header-marked-list{
@@ -95,6 +93,7 @@ header{
     line-height: 1.17;
     letter-spacing: 0.03em;
     margin-right: 76px;
+
 }
 
 .adress {
@@ -132,6 +131,11 @@ header{
     letter-spacing: 0.02em;
     text-decoration: none;
     font-style: normal;
+}
+
+.nav-list{
+padding: 24px 0;
+display: block;
 }
 
 .nav-list:hover {
@@ -172,11 +176,11 @@ header{
 /*section-one*/
 .section-one{
 background-color: #2E2F42;
-padding-bottom: 188px;
-padding-top: 188px;
+align-items: center
+;
 }
 .section-one-cont{
-
+padding: 188px 0 188px 0;;
 }
 
 .one-title {
@@ -221,16 +225,14 @@ padding-top: 188px;
 
 /*section-2*/
 
-.section-two{
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
+
 
 .section-two-content-list{
 display: flex;
 flex-wrap: wrap;
 gap: 24px;
 list-style: none;
+padding: 120px 0 120px;
 
 }
 
@@ -264,13 +266,8 @@ list-style: none;
 
 /*section-3*/
 
-.section-three{
-    padding: 120px 0 120px;
-}
-
-.block-list-team{
-    text-align: center;
-    margin-bottom: 8px;;
+.list-our-team img{
+    max-width: 100%;
 }
 
 .section-three-team-list{
@@ -278,6 +275,7 @@ list-style: none;
     justify-content: space-between;
     gap: 24px;
     text-align: center;
+    padding-bottom: 120px;
 }
     
 .name-team-position{
@@ -285,22 +283,12 @@ list-style: none;
 }
 
 .title-sec-three{
+    padding-top: 120px;
     margin-bottom: 72px;
-}
-
-.list-our-team img{
-    margin-bottom: 32px;
-    object-fit: cover;
-}
-
-.list-our-team p{
-    margin-bottom: 32px;
-    
 }
 
 .section-three{
     background-color: #F4F4FD;
-    padding: 120px 0 120px;
 }   
 
 .section-three> .two-title{
@@ -330,13 +318,19 @@ list-style: none;
 }
 /*section-4*/
 
-.section-four{
-padding: 120px 0 120px 0;
-}  
+.section-four-cont{
+    padding-bottom: 120px;
+}
 
 .title-sec-four{
+    padding-top: 120px;
     margin-bottom: 72px;
 }
+
+.list-item-sec-four img{
+    max-width: 100%;
+}
+
 
 .img-list-portfolio{
 display: flex;
@@ -346,25 +340,10 @@ column-gap: 24px;
 justify-content: center;
 }
 
-.img-list-portfolio img{
-    object-fit: cover;
-}
-
-.img-list-portfolio li{
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
-}
-
 .list-item-sec-four{
     width: calc((100% - 48px) / 3);
-}
-
-.img-list-portfolio h3{
-    margin-top: 32px;
-    padding: 0px 16px;
-}
-
-.img-list-portfolio p{
-    padding: 0px 16px 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .section-four> .two-title{
@@ -396,24 +375,20 @@ justify-content: center;
     letter-spacing: 0.02em;
 }
 
-.list-banking-app 
-.list-payment
-.list-meditation-app
-.list-taxi
-.list-screen
-.list-online-courses{
-    
+.list-addition{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
-
+    
 }
 
 /* footer */
 .footer {
     background-color: #2E2F42;
-    padding: 100px 0;
+}
+.cont-footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .logo-link-footer{
